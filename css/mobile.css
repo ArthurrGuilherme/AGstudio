@@ -1,0 +1,163 @@
+/*None*/
+@media (max-width: 900px) {
+    .mobile_br {
+        display: none;
+    }
+}
+/*container_header_primario*/
+@media (max-width: 900px) {
+    .container_header_primario {
+        display: none;
+    }
+}
+/*header_secundario*/
+@media (max-width: 900px) {
+    .ordem_lista {
+        display: none;
+    }
+    .nav_row {
+        height: 60px;
+    }
+    .GQMidias {
+        font-size: 1.5rem;
+    }
+    .links_bar {
+        width: 50%;
+    }
+    .nav_bar {
+        display: block;
+    }
+
+}
+/*container_apresentasao*/
+@media (max-width: 900px) {
+    .container_apresentasao {
+        background: url(https://i.pinimg.com/564x/c8/6e/c5/c86ec5b11c9c2c3fc924bc911887cfda.jpg);
+        height: 600px;
+        background-size: cover;
+        background-position: center;
+        background-attachment: inherit;
+    }
+    .cor_apresentasao {
+        height: 600px;
+    }
+    .texto_apresentassao {
+        height: 600px;
+        padding-left: 0px;
+        width: auto;
+        float: inherit;
+    }
+    .titulo_apresentação {
+        font-size: 1.3rem;
+    }
+    .textooapresen {
+        font-size: 0.9rem;
+    }
+    .regras_apresentasao {
+        display: none;
+    }
+    .container_texto {
+        display: none;
+    }
+    .mobile {
+        display: none;
+    }
+    
+}
+/*container_serviços*/ 
+@media (max-width: 900px) {
+    .texto_servisos {
+        font-size: 1.3rem;
+    }
+    .container_programasao {
+        height: auto;
+        padding: 0px;
+    }
+    .cor-programasao {
+        height: auto;
+        border-radius: 0px;
+        background: none;
+        color: #000;
+        display: flex;
+        justify-content: none;
+        flex-direction: column;
+    }
+    .esquerda_programasao {
+        padding: 0px 0.5rem 0px 0.5rem;
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+        height: auto;
+        color: #000;
+        gap: 0rem;
+    }
+    .icones_programao {
+        display: none;
+    }
+    .programaosao {
+        font-size: 1.3rem;
+        color: #000;
+        text-align: center;
+    }
+    .p_programasao {
+        color: #000;
+        text-align: center;
+        width: auto;
+        font-size: 0.7rem;
+        padding: 0.5rem 2rem 0px 2rem;
+    }
+    .img_programasao {
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+        float: right;
+    }
+    .direita {
+        background: #000;
+        width: 180px;
+        display: flex;
+        height: 180px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50% 50% 50% 0%;
+    }
+    #mobile {
+        display: none;
+    }
+    #desktop {
+        display: flex;
+    }
+    .texto_cor {
+        height: 25px;
+        background: #000;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        width: 103px;
+        font-size: 0.7rem;
+        border-radius: 15px 0px 0px 15px;
+        justify-content: center;
+    }
+    .texto_programasao {
+        display: flex;
+        flex-direction: column;
+    }
+    .organizasao_servisos {
+        display: flex;
+        justify-content: right;
+    }
+    .desktop_organizasao {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: space-between;
+    }
+   .programaosao01 {
+        font-size: 0.9rem;
+        color: #000;
+        text-align: center;
+   }
+    .programaosao {
+        display: none;
+    }
+}
