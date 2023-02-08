@@ -37,4 +37,8 @@ window.addEventListener('scroll', function () {
     let scroll = document.querySelector('.scrolltop')
         scroll.classList.toggle('active', window.scrollY > 200)
 })
+window.addEventListener("scroll", function () {
+  let scroll = document.querySelector(".scrollbottom")
+  scroll.classList.toggle("active", window.scrollY > 200)
+})
 
