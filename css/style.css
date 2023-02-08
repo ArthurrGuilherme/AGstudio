@@ -449,3 +449,14 @@ textarea {
     gap: 1rem;
     font-size: 1.2rem;
 }
+/*Btn redes*/
+#icon-rodape-bx {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(41deg, blueviolet, rgb(17, 0, 255));
+    color: var(--color-primaria);
+}
