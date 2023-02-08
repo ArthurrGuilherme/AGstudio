@@ -4,6 +4,12 @@
     margin: 0;
     text-decoration: none;
 }
+:root {
+  --color-primaria: #0e0b13;
+  --color-segundaria: #fff;
+  --color-terceira: #5e17d6;
+  --color-quarta: #54535399;
+}
 .load{
     position: absolute;
     width: 100%;
